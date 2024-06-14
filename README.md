@@ -31,11 +31,11 @@ The columns/variables are labeled in a manner that would be understood as to wha
 
 1.**Model Selection**: Various machine learning models are defined including:
 
-	-Logistic Regression	
+-Logistic Regression	
 
-	-Decision Trees
+-Decision Trees
 
-	-Principal Component Analysis (PCA)
+-Principal Component Analysis (PCA)
 
 
 2.**Handling Imbalance using Oversampling Techniques**: Used SMOTE to handle class imbalance within our dataset
