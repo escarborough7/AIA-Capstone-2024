@@ -51,7 +51,8 @@ The columns/variables are labeled in a manner that would be understood as to wha
 
 
 # Notebook considerations
--Unfortunately, due to an error in creating the GitHub, all files used are located in the main branch. The important file with code that we would like to present is labeled as **"Group 8 Final Code"**. 
+-For all code history please refer to the folder labelled **Working-Codes** 
+-For our final code please refer to **"Group 8 Final Code"**. 
 
 -The idea of using the PCA is that with 6 variables, two new variables "PC1" and "PC2" could be created to be used in future models. Unfortunately due to an error in interpretation and time, PCA was found to be useful but not used to run logistical regression and the decision tree. 
 
