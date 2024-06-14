@@ -52,10 +52,13 @@ The columns/variables are labeled in a manner that would be understood as to wha
 
 # Project Considerations
 -For all code history please refer to the folder labelled **Working-Codes** 
-- Here you will find the files used which acts as a history of the models we tried and the dataset both balanced and unbalanced. Included in the file is the dataset we used in the form of a python file. We included a file of our original decision tree using entropy and pruning. We also included a file containing the both balanced and unbalanced data.
+
+-Here you will find the files used which acts as a history of the models we tried and the dataset both balanced and unbalanced. Included in the file is the dataset we used in the form of a python file. We included a file of our original decision tree using entropy and pruning. We also included a file containing the both balanced and unbalanced data.
 
 -For our final code please refer to **Group 8 Final Code**. 
 
--The idea of using the PCA is that with 6 variables, two new variables "PC1" and "PC2" could be created to be used in future models. Unfortunately due to an error in interpretation and time, PCA was found to be useful but not used to run logistical regression and the decision tree. 
+-The idea of using the PCA is that with 6 variables, two new variables "PC1" and "PC2" could be created to be used in future models. Previously, our PCA ran and was unable to account for more than 30% of variance making it unuseful at the time, but after running SMOTE and rerunning the PCA, it was able to account for almost 100% of the variance. Unfortunately, at this point we were unable to include it in the further models due to timing. 
 
 -Our reason for prioritizing recall was because given the nature of the probelem (finding positive cases), our model needed to be able to find true positives out of the true positives. It would be better to have the model mark a non-fraudulent case as fraudelent, rather than not flagging a fraudulent case as non - fraudulent. 
+
+For our presentation please refer to this link: https://amedeloitte-my.sharepoint.com/personal/pdriscoll_deloitte_com/Documents/Fraud%20Fighters%20Capstone%20Presentation.pptx?web=1
